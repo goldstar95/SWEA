@@ -13,7 +13,7 @@ for tc in range(1,T+1):
 
     # s2
     # 올바른 면인데 제대로 꼽히지 않아서, 다시 꼽기 시도함.
-    s2 = p * (1 - q) * p
+    s2 = p * (1 - q) * q
 
     if s1 > s2 :
         print('#{} {}'.format(tc,'NO'))
